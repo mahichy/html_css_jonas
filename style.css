@@ -7,6 +7,13 @@ h6,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -65,4 +72,38 @@ p {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(3) {
+  color: #1098ad;
+} */
+
+li:nth-child(odd) {
+  font-weight: bold;
+}
+
+article p:last-child {
+  color: red;
 }
