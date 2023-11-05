@@ -1,6 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 /* PRODUCT */
@@ -42,6 +51,8 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .details-list {
@@ -56,9 +67,23 @@ body {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+  width: 100%;
+  height: 40px;
 }
 
 .btn:hover {
   color: #000;
   background-color: white;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.para {
+  margin-top: 20px;
 }
