@@ -265,9 +265,9 @@ h1::first-letter {
   color: red;
 } */
 
-h3 + p::first-line {
+/* h3 + p::first-line {
   color: blue;
-}
+} */
 h2 {
   /* background-color: orange; */
   position: relative;
